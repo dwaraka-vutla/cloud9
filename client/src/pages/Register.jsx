@@ -41,7 +41,7 @@ const Register = () => {
 
   return (
     <div className="form">
-      <h1>OG Book Store</h1>
+      <h1>OG's Book Store</h1>
       <h4>Register here</h4>
       {error &&  <div className='errorAlert'>Something went wrong! Please try again later</div> }
       <input
