@@ -40,7 +40,7 @@ const Login = () => {
 
   return (
     <div className="form">
-      <h1>OG Book Store</h1>
+      <h1>OG's Book Store</h1>
       <h4>Login Here</h4>
       {error &&  <Alert variant="filled" severity="error">Please provide valid credentials</Alert> }
       <input
