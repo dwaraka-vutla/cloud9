@@ -111,7 +111,7 @@ const NavBar = () => {
               textDecoration: 'none',
             }}
           >
-            OG Books
+            OG's Books
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
