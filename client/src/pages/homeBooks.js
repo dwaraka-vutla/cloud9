@@ -4,20 +4,22 @@ const homeBooks ={
         {
             title:'Fiction',
             details:"Immerse yourself in the realms of imagination and storytelling with our diverse fiction offerings. From classics that have withstood the test of time to contemporary tales that reflect our ever-changing world, there's a story for everyone to get lost in.",
-            img: 'https://5.imimg.com/data5/ANDROID/Default/2023/2/EH/VL/SO/161183780/product-jpeg-500x500.jpg'
+            img: 'https://images.lifestyleasia.com/wp-content/uploads/sites/7/2023/05/18102455/The-Best-Fiction-Books-1600x900.jpg?tr=w-1600'
         },
         {
             title:'Mystery and Thriller',
             details:"For those who crave suspense and intrigue, our mystery and thriller section is a treasure trove. Unearth the enigmatic secrets, follow detective trails, and experience heart-pounding suspense that will keep you on the edge of your seat.",
-            img: 'https://5.imimg.com/data5/ANDROID/Default/2023/2/EH/VL/SO/161183780/product-jpeg-500x500.jpg'        
-},
+            img: 'https://i.insider.com/608842df0da8f40018033bcc?width=1000&format=jpeg&auto=webp'        
+        },
         {
             title:'Science Fiction and Fantasy',
-            details:"Embark on epic journeys to distant galaxies and realms of wonder with our collection of science fiction and fantasy books. Explore futuristic technology, otherworldly creatures, and intricate, imaginative universes."
+            details:"Embark on epic journeys to distant galaxies and realms of wonder with our collection of science fiction and fantasy books. Explore futuristic technology, otherworldly creatures, and intricate, imaginative universes.",
+            img: 'https://i.insider.com/60dc9f1ccad1220011caf444?width=1000&format=jpeg&auto=webp'
         },
         {
             title:'Romance',
-            details:"Love is in the air in our romance genre. From sweet, heartwarming stories to passionate love affairs, our romance novels will kindle your emotions and whisk you away into the world of romantic possibilities."
+            details:"Love is in the air in our romance genre. From sweet, heartwarming stories to passionate love affairs, our romance novels will kindle your emotions and whisk you away into the world of romantic possibilities.",
+            img: 'https://i.insider.com/607f2d9174da0300181e2cc1?width=1000&format=jpeg&auto=webp'
         },
         {
             title:'Non-Fiction',
