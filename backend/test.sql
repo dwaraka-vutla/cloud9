@@ -40,8 +40,17 @@ CREATE TABLE `books` (
 --
 
 INSERT INTO `books` (`id`, `title`, `desc`, `price`, `cover`) VALUES
-(1, 'Gamer of throne', 'this is an amazing book to read when you are free ', 2343.2, 'https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'),
-(2, 'Fire folks', 'fire folks is ming blowing book to read it will blow your mind', 2342.3, 'https://images.unsplash.com/photo-1543002588-bfa74002ed7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80');
+(1, 'Mahabharat', 'The Mahabharata, one of India's two major Sanskrit epics, chronicles the Kurukshetra War, a clash between two royal cousins, the Pandavas and the Kauravas. Rich in philosophical discussions and mythological stories, it's a literary treasure.', 99, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0wmWzvygc_MvbbKMN0b-Tz0aPE-URnlDa58WRnqDIbdQs-6cq'),
+(2, 'Ramayana', 'The Ramayana, an ancient Sanskrit epic, recounts the life of Rama, an exiled prince who rescues his wife Sita from the demon king Ravana, establishing a reign of righteousness. It remains a revered masterpiece of Indian literature.', 99, 'https://cdn.kobo.com/book-images/b0870569-2c21-49f5-b33f-15acacdd3562/353/569/90/False/india-s-epic-ramayana-for-the-youth-and-kids.jpg'),
+(3, 'The Art of Happiness', 'In "The Art of Happiness," the Dalai Lama shares his insights on cultivating inner peace and lasting happiness in our daily lives.', 79, 'https://m.media-amazon.com/images/I/81iL+zKO7AL._SL1500_.jpg'),
+(4, 'Harry Potter Series','Orphaned Harry Potter discovers he's a wizard and attends Hogwarts School of Witchcraft and Wizardry, where he faces challenges and confronts the dark wizard Lord Voldemort.', 49, 'https://m.media-amazon.com/images/I/81lDy5nEXUL._SL1500_.jpg'),
+(5, 'A W S', 'Amazon Web Services (AWS) is a suite of cloud computing services that offer on-demand access to a broad range of IT resources, such as compute power, storage, and networking. ', 79, 'https://m.media-amazon.com/images/I/71Mudt+dTxL._SL1500_.jpg'),
+(6, 'Game of Thrones', 'Krish, a Punjabi boy from Delhi, falls in love with Ananya, a Tamilian girl from Chennai. Despite their cultural differences, they overcome numerous obstacles, including parental disapproval, to achieve their dream of a happy marriage.', 69, 'https://m.media-amazon.com/images/I/71P+4DslKmL._SY466_.jpg'),
+(7, 'Redemption at Hacksaw Ridge', 'Redemption at Hacksaw Ridge" by Booton Herndon is a biography of Desmond Doss, a conscientious objector who served as a combat medic in World War II.', 69, 'https://m.media-amazon.com/images/I/81aSIhQ1KLL._SL1500_.jpg'),
+(8, 'The 3 Mistakes of My Life', 'Amidst religious tensions and business challenges, three friends in Ahmedabad, India, navigate love, friendship, and ambition in Chetan Bhagat's "The 3 Mistakes of My Life.', 39, 'https://m.media-amazon.com/images/I/71zxX-RW2xL._SL1360_.jpg'),
+(9, '2 States', 'Krish, a Punjabi boy from Delhi, falls in love with Ananya, a Tamilian girl from Chennai. Despite their cultural differences, they overcome numerous obstacles, including parental disapproval, to achieve their dream of a happy marriage.', 69, 'https://m.media-amazon.com/images/I/81ZN3w7Of6L._SL1500_.jpg'),
+(10, 'Kalki', 'Avatar of Vishnu," an ordinary village boy embarks on a heroic quest to restore peace and righteousness in a world threatened by darkness.', 99, 'https://m.media-amazon.com/images/I/81ZN3w7Of6L._SL1500_.jpg'),
+(11, 'I Am Watching You', 'In Teresa Driscoll's captivating thriller "I Am Watching You," Ella Longfield's maternal instincts are put on high alert when she overhears two men flirting with teenage girls on a train. ', 59, 'https://m.media-amazon.com/images/I/61ufZiWTI+L._SL1014_.jpg');
 
 --
 -- Indexes for dumped tables
@@ -100,12 +109,5 @@ CREATE TABLE `orders` (
   `bookIds` varchar(300) NOT NULL,
   `orderPrice`  float(10,2)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
-
-
-INSERT INTO `books` (`id`, `title`, `desc`, `price`, `cover`) VALUES
-(4, 'Book4', 'this is an amazing book to read when you are free ', 243.2, 'https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'),
-(5, 'Book5', 'fire folks is ming blowing book to read it will blow your mind', 1342.3, 'https://images.unsplash.com/photo-1543002588-bfa74002ed7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80');
-
-
 
 
